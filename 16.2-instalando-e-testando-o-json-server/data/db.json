@@ -1,0 +1,48 @@
+{
+  "cidades": [
+    {
+      "nome": "Uberlândia",
+      "id": 1
+    },
+    {
+      "nome": "São Paulo",
+      "id": 2
+    },
+    {
+      "nome": "Fortaleza",
+      "id": 3
+    },
+    {
+      "nome": "São Paulo",
+      "id": 4
+    },
+    {
+      "nome": "Campinas",
+      "id": 5
+    },
+    {
+      "nome": "Manaus",
+      "id": 6
+    },
+    {
+      "nome": "Pinheiros",
+      "id": 7
+    },
+    {
+      "nome": "Goiânia",
+      "id": 8
+    },
+    {
+      "nome": "São mateus ES",
+      "id": 9
+    },
+    {
+      "nome": "São mateus SP",
+      "id": 10
+    },
+    {
+      "nome": "Itú",
+      "id": 11
+    }
+  ]
+}
