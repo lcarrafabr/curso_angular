@@ -9,11 +9,11 @@
       "id": 2
     },
     {
-      "nome": "Fortaleza",
+      "nome": "Ceará",
       "id": 3
     },
     {
-      "nome": "São Paulo",
+      "nome": "Paraná",
       "id": 4
     },
     {
@@ -25,23 +25,15 @@
       "id": 6
     },
     {
-      "nome": "Pinheiros",
-      "id": 7
-    },
-    {
       "nome": "Goiânia",
       "id": 8
     },
     {
-      "nome": "São mateus ES",
-      "id": 9
-    },
-    {
-      "nome": "São mateus SP",
+      "nome": "Pinheiros ES",
       "id": 10
     },
     {
-      "nome": "Itú",
+      "nome": "Manaus",
       "id": 11
     }
   ]

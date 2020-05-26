@@ -21,7 +21,7 @@ export class AppComponent implements OnInit{
     this.cidadeService.consultar()
     .then(cidades => {
       this.cidades = cidades
-    })
+    });
   }
 
   adicionar(nome: string) {
@@ -30,15 +30,25 @@ export class AppComponent implements OnInit{
       this.cidades = cidade
       alert(`Cidade "${cidade.nome}" cadastrado com o código "${cidade.id}"`);
       this.consultar();
-    })
+    });
   }
 
   excluir(id: number) {
-    alert(id);
+    this.cidadeService.excluir(id)
+    .then(() => {
+      alert('Cidade exluída com Sucesso!');
+      this.consultar();
+    });
   }
 
   atualizar(cidade: any) {
-    alert(JSON.stringify(cidade));
+    this.cidadeService.atualizar(cidade)
+    .then(() => {
+      alert('Cidade atualizada com sucesso!');
+    })
+    .catch(erro => {
+      alert(erro)
+    });
   }
 
 }
